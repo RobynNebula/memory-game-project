@@ -1,0 +1,10 @@
+section {
+    color: grey;
+    text-align: center;
+    margin-top: 20%;
+}
+
+button {
+    background-color: rgba(129, 28, 197, 0.4);
+    color: grey;
+}
