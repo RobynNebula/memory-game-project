@@ -1,0 +1,11 @@
+.foot{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgba(58, 14, 141, 0.2);
+}
+
+span{
+    color: orange;
+}

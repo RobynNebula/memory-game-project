@@ -1,0 +1,140 @@
+    body {
+        margin: 0;
+        background-color: #13102D;
+    }
+    /*Page inscription*/
+   .inscription > div {
+    font-family: arial; 
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+    }
+    
+    .inscription form {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        margin: 250px;
+        text-align: center;    
+    }
+
+    .inscription button {
+        background-color: #EC9224;
+        color: white;
+        border: 0px;
+        width: 90px; 
+        height: 30px;
+    }
+    
+    .inscription input {
+        background-color: #272645;
+        border: 0px;
+        width: 330px; 
+        height: 30px;
+        color: white;
+    }
+
+    /*Page Contact*/
+    .contact input {
+        background-color: #272645;
+        border: 0px;
+        width: 348px; 
+        height: 30px;
+        color: white;
+    }
+
+    .contact .wrap input {
+        margin-right: 20px;
+    }
+
+    .contact button {
+        background-color: #EC9224;
+        color: white;
+        border: 0px;
+        width: 70px; 
+        height: 30px;
+    }
+   
+    .contact form > div {
+        display: flex;
+        margin: 25px;  
+        padding-left: 163px;    
+    }
+    
+    .wrap {
+        display: flex;
+        width: 20%       
+    }
+
+    .message input {
+    height: 150px;
+    }
+
+    .icone {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 75px;
+    }
+    .icone > div {
+        color: #CAC8E4;
+        padding: 1em;
+        background: #0D0B26;
+        font-size: 15px;
+        text-align: -webkit-center;
+        width: 15%;
+        padding-bottom: 38px;
+    }
+
+    .orange {
+        width: 82px;
+        height: 80px;
+        background: orange;
+        border-radius:50%
+    }
+
+    .orange img {
+        width: 48px;
+        height: 40px;
+        padding-top: 22px;
+    }
+
+    .lettre {
+        width: 80px;
+        height: 80px;
+        background: orange;
+        border-radius:50%
+    }
+
+    .lettre img {
+        width: 38px;
+        height: 38px;
+        padding-top: 22px;
+    }
+
+    .endroit {
+        width: 82px;
+        height: 80px;
+        background: orange;
+        border-radius:50%
+    }
+
+    .endroit img {
+        width: 45px;
+        height: 40px;
+        padding-top: 22px;
+    }
+
+    /*banière contact*/
+    .banner {
+        height: 85px;
+        background-image: url("memory-game-project/image/realbanner.jpg");
+        text-align: center;
+        color: white;
+        align-items: center;
+        padding-top: 70px;
+        font-size: 20px;
+    }
+
+    h1 {
+    margin-top: -1%;
+    }
