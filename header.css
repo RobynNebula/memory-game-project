@@ -1,6 +1,7 @@
 .head section{
     display: flex;
-    min-height: 5%;
+
+/*    min-height: 5%;
     margin-left: 10%;
 }
 
@@ -8,6 +9,15 @@
     display: flex;
     min-height: 5%;
     justify-content: flex-end;
+
+    margin-left: 10%;
+}*/
+
+/*en-tête*/
+.linkContainer{
+    display: flex;
+    min-height: 5%;
+
     flex: 1;
     justify-content: space-around;
     margin-left: 40%;
@@ -17,3 +27,4 @@
 .head section p{
     color:white;
 }
+

@@ -1,26 +1,11 @@
-body{
-    background-color: rgb(19, 7, 55);
-    font-family: 'Rubik', sans-serif;
-}
+
 
 .headerFooter{
     font-family: ui-rounded;
 }
 
 
-.banner{
-    width: 100%;
-    height: 200px;
-    background-image: url(img/realbanner.png_large);
-    text-align: center;
-    color: white;
-    align-items: center;
-    padding-top: 70px;
-    font-family: ui-rounded;
-    font-size: 20px;
-}
-
-table{
+.gameTable{
     border: 5px solid;
     border-collapse: collapse;
     color: pink;
@@ -80,7 +65,244 @@ body a img {
     height: 100px;
 }
 
-h1{
+.levelTitle{
     color: white;
     text-align: center;
 }
+
+    body {
+        margin: 0;
+        background-color: #13102D;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+        /*Paramétre en-tête*/
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 9px;
+        }
+        
+        a:hover {
+            transform:scale(1.1);
+            transition:1.1;
+        }
+        
+
+    /*Page inscription*/
+   .inscription > div {
+        display: flex;
+        justify-content: center;
+        text-align: center;    
+    }
+    
+    .inscription form {
+        display: flex;
+        flex-direction: column;
+        margin: 5%; 
+        margin-left: 38%;   
+    }
+
+    .inscription button {
+        background-color: #EC9224;
+        color: white;
+        border: 0px;
+        width: 90px; 
+        height: 30px;
+    }
+    
+    .inscription input {
+        background-color: #272645;
+        border: 0px;
+        width: 330px; 
+        height: 30px;
+        color: white;
+    }
+
+    /*Formulaire page contact*/
+    .contact input {
+        background-color: #272645;
+        border: 0px;
+        width: 300px; 
+        height: 30px;
+        color: white;
+        margin-bottom: 8px;
+    }
+
+    /*Espace entre l'email et le nom*/
+    .contact .wrap input {
+        margin-right: 20px;
+    }
+
+    /*taille case message*/
+    .message {
+        width: 46%;
+        height: 48%;
+        background-color: #272645;
+        border: 0;
+    }
+    
+    /*Bouton envoyer*/
+    .contact button {
+        background-color: #EC9224;
+        color: white;
+        border: 0px;
+        width: 70px; 
+        height: 30px;
+        margin-top: inherit;
+    }
+   
+    .contact form > div {
+        display: flex;
+        margin: 25px;  
+        padding-left: 163px;    
+    }
+
+    /*icone page contact*/
+    .icone {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 75px;
+    }
+    
+    .icone > div {
+        color: #CAC8E4;
+        padding: 1em;
+        background: #0D0B26;
+        font-size: 15px;
+        text-align: -webkit-center;
+        width: 15%;
+        padding-bottom: 38px;
+    }
+
+    .orange {
+        width: 82px;
+        height: 80px;
+        background: orange;
+        border-radius:50%
+    }
+
+    .orange img {
+        width: 48px;
+        height: 40px;
+        padding-top: 22px;
+    }
+
+    .lettre {
+        width: 80px;
+        height: 80px;
+        background: orange;
+        border-radius:50%
+    }
+
+    .lettre img {
+        width: 38px;
+        height: 38px;
+        padding-top: 22px;
+    }
+
+    .endroit {
+        width: 82px;
+        height: 80px;
+        background: orange;
+        border-radius:50%
+    }
+
+    .endroit img {
+        width: 45px;
+        height: 40px;
+        padding-top: 22px;
+    }
+
+    /*bannière*/
+    .banner {
+        height: 300px;
+        background-image: url("./image/img4.jpg");
+        text-align: center;
+        color: white;
+        padding-top: 70px;
+        font-size: 25px;
+    }
+
+    /*Titre page*/
+    h1 {
+        margin-top: 5%;
+    }
+
+    /*Tableau score*/
+    caption, tr, td, th { 
+        border: 2px solid white; 
+        color: white;
+        padding: 25px;
+        padding-left: 16px;
+        text-align: center;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    td, th {
+        border-top: none; border-bottom: none;
+    }
+
+    table {
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    /*Page mon espace*/
+
+    .modifiermail {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+        margin-left: 38%; 
+    }
+
+    .modifiermail input {
+        background-color: #272645;
+        border: 0px;
+        width: 330px;
+        height: 30px;
+        color: white;
+    }
+
+    .mofifiermdp {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+        margin-left: 38%; 
+    }
+
+    .mofifiermdp input {
+        background-color: #272645;
+        border: 0px;
+        width: 330px;
+        height: 30px;
+        color: white;
+    }
+
+    .modifier button {
+        background-color: #EC9224;
+        color: white;
+        border: 0px;
+        width: 70px; 
+        height: 30px;
+        margin-top: inherit;
+    }
+
+    h2 {
+        color: white;
+        padding: 1em;
+        background: #0D0B26;
+        font-size: 20px;
+        text-align: -webkit-center;
+        width: 35%;
+        padding-bottom: 38px;
+    }
+   
+   
+
+    
+
