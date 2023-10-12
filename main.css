@@ -5,12 +5,18 @@
     }
 
         /*Paramétre en-tête*/
-        a {
+        a{
             color: white;
             text-decoration: none;
             margin: 9px;
         }
         
+        a:hover {
+            transform:scale(1.1);
+            transition:1.1;
+        }
+        
+
     /*Page inscription*/
    .inscription > div {
         display: flex;
