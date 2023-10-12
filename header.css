@@ -1,28 +1,16 @@
-.inscription {
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    justify-content: center;
-}
-
 .head section{
     display: flex;
-    min-height: 5%;
     margin-left: 10%;
 }
 
-/*en-tête contact*/
+/*en-tête*/
 .linkContainer{
     display: flex;
     min-height: 5%;
-    justify-content: flex-end;
     flex: 1;
     justify-content: space-around;
     margin-left: 40%;
     margin-right: 10%;
-}
-
-.head section p {
-    color:white;
 }
 
 

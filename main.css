@@ -1,21 +1,28 @@
     body {
         margin: 0;
         background-color: #13102D;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+
+        /*Paramétre en-tête*/
+        a {
+            color: white;
+            text-decoration: none;
+            margin: 9px;
+        }
+        
     /*Page inscription*/
    .inscription > div {
-    font-family: arial; 
-    display: flex;
-    justify-content: center;
-    text-align: center;    
+        display: flex;
+        justify-content: center;
+        text-align: center;    
     }
     
     .inscription form {
-        width: 20%;
         display: flex;
         flex-direction: column;
-        margin: 250px;
-        text-align: center;    
+        margin: 5%; 
+        margin-left: 38%;   
     }
 
     .inscription button {
@@ -34,25 +41,37 @@
         color: white;
     }
 
-    /*Page Contact*/
+    /*Formulaire page contact*/
     .contact input {
         background-color: #272645;
         border: 0px;
-        width: 348px; 
+        width: 300px; 
         height: 30px;
         color: white;
+        margin-bottom: 8px;
     }
 
+    /*Espace entre l'email et le nom*/
     .contact .wrap input {
         margin-right: 20px;
     }
 
+    /*taille case message*/
+    .message {
+        width: 46%;
+        height: 48%;
+        background-color: #272645;
+        border: 0;
+    }
+    
+    /*Bouton envoyer*/
     .contact button {
         background-color: #EC9224;
         color: white;
         border: 0px;
         width: 70px; 
         height: 30px;
+        margin-top: inherit;
     }
    
     .contact form > div {
@@ -60,21 +79,14 @@
         margin: 25px;  
         padding-left: 163px;    
     }
-    
-    .wrap {
-        display: flex;
-        width: 20%       
-    }
 
-    .message input {
-    height: 150px;
-    }
-
+    /*icone page contact*/
     .icone {
         display: flex;
         justify-content: space-evenly;
         margin-top: 75px;
     }
+    
     .icone > div {
         color: #CAC8E4;
         padding: 1em;
@@ -124,17 +136,88 @@
         padding-top: 22px;
     }
 
-    /*banière contact*/
+    /*bannière*/
     .banner {
-        height: 85px;
-        background-image: url("memory-game-project/image/realbanner.jpg");
+        height: 300px;
+        background-image: url("./image/img4.jpg");
         text-align: center;
         color: white;
-        align-items: center;
         padding-top: 70px;
-        font-size: 20px;
+        font-size: 25px;
     }
 
+    /*Titre page*/
     h1 {
-    margin-top: -1%;
+        margin-top: 5%;
     }
+
+    /*Tableau score*/
+    caption, tr, td, th { 
+        border: 2px solid white; 
+        color: white;
+        padding: 25px;
+        padding-left: 16px;
+        text-align: center;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    td, th {
+        border-top: none; border-bottom: none;
+    }
+
+    table {
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    /*Page mon espace*/
+
+    .modifiermail {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+        margin-left: 38%; 
+    }
+
+    .modifiermail input {
+        background-color: #272645;
+        border: 0px;
+        width: 330px;
+        height: 30px;
+        color: white;
+    }
+
+    .mofifiermdp {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+        margin-left: 38%; 
+    }
+
+    .mofifiermdp input {
+        background-color: #272645;
+        border: 0px;
+        width: 330px;
+        height: 30px;
+        color: white;
+    }
+
+    .modifier button {
+        background-color: #EC9224;
+        color: white;
+        border: 0px;
+        width: 70px; 
+        height: 30px;
+        margin-top: inherit;
+    }
+
+    h2 {
+        color: white;
+    }
+   
+   
+
+    
