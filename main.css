@@ -216,6 +216,12 @@
 
     h2 {
         color: white;
+        padding: 1em;
+        background: #0D0B26;
+        font-size: 20px;
+        text-align: -webkit-center;
+        width: 35%;
+        padding-bottom: 38px;
     }
    
    
