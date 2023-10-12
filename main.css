@@ -5,8 +5,7 @@ section {
 }
 
 .formulaire {
-    text-align: center;
-    
+    text-align: center;   
 }
 
 button {
@@ -53,9 +52,188 @@ h1 {
     padding: 80px;
     background-position: center;
     background-size: cover;
+   
 }
 
 .jouer {
     text-align: center;
     margin-top: -20%;
  }
+
+.images {
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.images img{
+    width: 300px;
+    height: 250px;
+    margin-right: 5%;
+    margin-top: 20%;
+}
+
+.principale {
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondaire {
+    display: flex;
+    justify-content: center;
+}
+
+.chiffre1{
+    display: flex;
+    color: violet;
+    align-items: center;
+}
+
+.chiffre2{
+    display: flex;
+    color: violet;
+    align-items: center;
+    
+}
+
+.chiffre3{
+    display: flex;
+    color: violet;
+    align-items: center;
+}
+
+.texte1{
+    display: flex;
+    color: violet;
+    align-items: center;
+    
+}
+
+.texte2{
+    display: flex;
+    color: violet;
+    align-items: center;
+}
+
+.texte3{
+    display: flex;
+    color: violet;
+    align-items: center;
+}
+
+.gta {
+  margin-left: 20%;
+  margin-top: 12%;
+}
+
+.violet1 {
+    background-image: url(image/violet.jpeg);
+    height: 100px;
+    width: 150px;
+    margin-left: 60%;
+    margin-top: -17%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.bleuneon1 {
+    background-image: url(image/bleu\ néon.avif);
+    height: 100px;
+    width: 150px;
+    margin-left: 60%;
+    margin-top: 1%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.violet2 {
+    background-image: url(image/violet.jpeg);
+    height: 100px;
+    width: 150px;
+    margin-left: 73%;
+    margin-top: -7%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.bleuneon2 {
+    background-image: url(image/bleu\ néon.avif);
+    height: 100px;
+    width: 150px;
+    margin-left: 73%;
+    margin-top: -15%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+
+.ecriture1{
+    padding-top: 3%;
+}
+.A1 {
+    margin-bottom: 0;
+}
+
+.A2 {
+    margin-top: 0;
+}
+
+.ecriture2 {
+    padding-top: 3%;
+}
+
+.B1 {
+    margin-bottom: 0;
+}
+
+.B2 {
+    margin-top: 0;
+}
+
+.ecriture3 {
+    padding-top: 3%;
+}
+
+.B3 {
+    margin-bottom: 0;
+}
+
+.B4 {
+    margin-top: 0;
+}
+
+.ecriture4 {
+    padding-top: 3%;
+}
+
+.A3 {
+    margin-bottom: 0;
+}
+
+.A4 {
+    margin-top: 0;
+}
+.presentation {
+    margin-top: 17%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.noir1 {
+    display: flex;
+   height: 400px;
+   width: 250px;
+   opacity: 0.50;
+}
