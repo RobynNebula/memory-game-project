@@ -1,0 +1,15 @@
+.foot{
+    display: flex;
+    align-content: flex-end;
+    color: white;
+    justify-content: space-evenly;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(58, 14, 141, 0.2);
+
+}
+
+span{
+    color: orange;
+}

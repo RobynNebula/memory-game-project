@@ -1,0 +1,19 @@
+.head section{
+    display: flex;
+    min-height: 5%;
+    margin-left: 10%;
+}
+
+.linkContainer{
+    display: flex;
+    min-height: 5%;
+    justify-content: flex-end;
+    flex: 1;
+    justify-content: space-around;
+    margin-left: 40%;
+    margin-right: 10%;
+}
+
+.head section p{
+    color:white;
+}
