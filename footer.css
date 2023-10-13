@@ -1,14 +1,14 @@
-.foot{
+
+.foot {
     display: flex;
     color: white;
     justify-content: space-evenly;
-    bottom: 0;
-    position: absolute;
     width: 100%;
     background-color: rgba(58, 14, 141, 0.2);
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-span{
+span {
+
     color: orange;
 }
