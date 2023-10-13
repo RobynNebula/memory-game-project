@@ -1,9 +1,6 @@
-
-
 .headerFooter{
     font-family: ui-rounded;
 }
-
 
 .banner{
     width: 100%;
@@ -17,7 +14,7 @@
     font-size: 20px;
 }
 
-table{
+.gametable{
     border: 5px solid;
     border-collapse: collapse;
     color: pink;
@@ -82,242 +79,244 @@ h1{
     text-align: center;
 }
 
-    body {
-        margin: 0;
-        background-color: #13102D;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+body {
+    margin: 0;
+    background-color: #13102D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-        /*Paramétre en-tête*/
-        a{
-            color: white;
-            text-decoration: none;
-            margin: 9px;
-        }
+/*Paramétre en-tête*/
+a{
+    color: white;
+    text-decoration: none;
+    margin: 9px;
+}
         
-        a:hover {
-            transform:scale(1.1);
-            transition:1.1;
-        }
+a:hover {
+    transform:scale(1.1);
+    transition:1.1;
+}
         
 
-    /*Page inscription*/
-   .inscription > div {
-        display: flex;
-        justify-content: center;
-        text-align: center;    
-    }
+/*Page inscription*/
+.inscription > div {
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+}
     
-    .inscription form {
-        display: flex;
-        flex-direction: column;
-        margin: 5%; 
-        margin-left: 38%;   
-    }
+.inscription form {
+    display: flex;
+    flex-direction: column;
+    margin: 5%; 
+    margin-left: 38%;   
+}
 
-    .inscription button {
-        background-color: #EC9224;
-        color: white;
-        border: 0px;
-        width: 90px; 
-        height: 30px;
-    }
+.inscription button {
+    background-color: #EC9224;
+    color: white;
+    border: 0px;
+    width: 90px; 
+    height: 30px;
+}
     
-    .inscription input {
-        background-color: #272645;
-        border: 0px;
-        width: 330px; 
-        height: 30px;
-        color: white;
-    }
+.inscription input {
+    background-color: #272645;
+    border: 0px;
+    width: 330px; 
+    height: 30px;
+    color: white;
+}
 
-    /*Formulaire page contact*/
-    .contact input {
-        background-color: #272645;
-        border: 0px;
-        width: 200px; 
-        height: 30px;
-        color: white;
-        margin-bottom: 8px;
-    }
+/*Formulaire page contact*/
+.contact input {
+    background-color: #272645;
+    border: 0px;
+    width: 200px; 
+    height: 30px;
+    color: white;
+    margin-bottom: 8px;
+}
 
-    /*Espace entre l'email et le nom*/
-    .contact .wrap input {
-        margin-right: 20px;
-    }
+/*Espace entre l'email et le nom*/
+.contact .wrap input {
+    margin-right: 20px;
+}
 
-    .contact .wrap .sujet {
-        width: 95%;
-    }
+.contact .wrap .sujet {
+    width: 95%;
+}
 
-    /*taille case message*/
-    .message {
-        width: 46%;
-        height: 48%;
-        background-color: #272645;
-        border: 0;
-        width: 95%;
-        height: 126%;
-    }
+/*taille case message*/
+.message {
+    width: 46%;
+    height: 48%;
+    background-color: #272645;
+    border: 0;
+    width: 95%;
+    height: 126%;
+}
     
-    /*Bouton envoyer*/
-    .contact button {
-        background-color: #EC9224;
-        color: white;
-        border: 0px;
-        width: 70px; 
-        height: 30px;
-        margin-top: 8%;
-    }
+/*Bouton envoyer*/
+.contact button {
+    background-color: #EC9224;
+    color: white;
+    border: 0px;
+    width: 70px; 
+    height: 30px;
+    margin-top: 8%;
+}
    
-    .contact .formulairecontact > div {
-        display: flex;
-        margin: 25px;  
-        padding-left: 163px;    
-    }
+.contact .formulairecontact > div {
+    display: flex;
+    margin: 25px;  
+    padding-left: 163px;    
+}
 
-    /*icone page contact*/
-    .icone {
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 75px;
-    }
+/*icone page contact*/
+.icone {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+}
     
-    .icone > div {
-        color: #CAC8E4;
-        padding: 1em;
-        background: #0D0B26;
-        font-size: 15px;
-        text-align: -webkit-center;
-        width: 15%;
-        padding-bottom: 38px;
-    }
+.icone > div {
+    color: #CAC8E4;
+    padding: 1em;
+    background: #0D0B26;
+    font-size: 15px;
+    text-align: -webkit-center;
+    width: 15%;
+    padding-bottom: 38px;
+}
 
-    .orange {
-        width: 82px;
-        height: 80px;
-        background: orange;
-        border-radius:50%
-    }
+.orange {
+    width: 82px;
+    height: 80px;
+    background: orange;
+    border-radius:50%
+}
 
-    .orange img {
-        width: 48px;
-        height: 40px;
-        padding-top: 22px;
-    }
+.orange img {
+    width: 48px;
+    height: 40px;
+    padding-top: 22px;
+}
 
-    .lettre {
-        width: 80px;
-        height: 80px;
-        background: orange;
-        border-radius:50%
-    }
+.lettre {
+     width: 80px;
+    height: 80px;
+    background: orange;
+    border-radius:50%
+}
 
-    .lettre img {
-        width: 38px;
-        height: 38px;
-        padding-top: 22px;
-    }
+.lettre img {
+    width: 38px;
+    height: 38px;
+    padding-top: 22px;
+}
 
-    .endroit {
-        width: 82px;
-        height: 80px;
-        background: orange;
-        border-radius:50%
-    }
+.endroit {
+    width: 82px;
+    height: 80px;
+    background: orange;
+    border-radius:50%
+}
 
-    .endroit img {
-        width: 45px;
-        height: 40px;
-        padding-top: 22px;
-    }
+.endroit img {
+    width: 45px;
+    height: 40px;
+    padding-top: 22px;
+}
 
-    /*bannière*/
-    .banner {
-        height: 300px;
-        background-image: url("./image/img4.jpg");
-        text-align: center;
-        color: white;
-        padding-top: 70px;
-        font-size: 25px;
-    }
+/*bannière*/
+.banner {
+    height: 300px;
+    background-image: url("./image/img4.jpg");
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    font-size: 25px;
+}
 
-    /*Titre page*/
-    h1 {
-        margin-top: 5%;
-    }
+/*Titre des pages dans la bannière*/
+h1 {
+    margin-top: 5%;
+}
 
-    /*Tableau score*/
-    .titretableau, .lignetableau, .valeur { 
-        border: 2px solid white; 
-        color: white;
-        padding: 25px;
-        padding-left: 16px;
-        text-align: center;
-        padding-top: 20px;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .valeur {
-        border-top: none; border-bottom: none;
-    }
+/*Tableau score*/
+.titretableau, .lignetableau, .valeur { 
+    border: 2px solid white; 
+    color: white;
+    padding: 25px;
+    padding-left: 16px;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
-    .tableauscore {
-        margin: auto;
-        border-collapse: collapse;
-    }
+.valeur {
+    border-top: none; border-bottom: none;
+}
 
-    /*Page mon espace*/
+.tableauscore {
+    margin: auto;
+    border-collapse: collapse;
+}
 
-    .modifiermail {
-        display: flex;
-        flex-direction: column;
-        margin: 5%;
-        margin-left: 38%; 
-    }
+/*Page mon espace*/
 
-    .modifiermail input {
-        background-color: #272645;
-        border: 0px;
-        width: 330px;
-        height: 30px;
-        color: white;
-    }
+.modifiermail {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    margin-left: 38%; 
+}
 
-    .mofifiermdp {
-        display: flex;
-        flex-direction: column;
-        margin: 5%;
-        margin-left: 38%; 
-    }
+.modifiermail input {
+    background-color: #272645;
+    border: 0px;
+    width: 330px;
+    height: 30px;
+    color: white;
+}
 
-    .mofifiermdp input {
-        background-color: #272645;
-        border: 0px;
-        width: 330px;
-        height: 30px;
-        color: white;
-    }
+.mofifiermdp {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    margin-left: 38%; 
+}
 
-    .modifier button {
-        background-color: #EC9224;
-        color: white;
-        border: 0px;
-        width: 70px; 
-        height: 30px;
-        margin-top: inherit;
-    }
+.mofifiermdp input {
+    background-color: #272645;
+    border: 0px;
+     width: 330px;
+    height: 30px;
+    color: white;
+}
 
-    h2 {
-        color: white;
-        padding: 1em;
-        background: #0D0B26;
-        font-size: 20px;
-        text-align: -webkit-center;
-        width: 35%;
-        padding-bottom: 38px;
-    }
+.modifier button {
+    background-color: #EC9224;
+    color: white;
+    border: 0px;
+    width: 70px; 
+    height: 30px;
+    margin-top: inherit;
+}
+
+/*Titre de modification de l'adresse mail et mdp*/
+h2 {
+    color: white;
+    padding: 1em;
+    background: #0D0B26;
+    font-size: 20px;
+    text-align: -webkit-center;
+    width: 35%;
+    padding-bottom: 38px;
+}
    
    
 
