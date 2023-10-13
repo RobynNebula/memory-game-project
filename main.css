@@ -1,5 +1,4 @@
 
-
 .headerFooter{
     font-family: ui-rounded;
 }
@@ -10,7 +9,13 @@
     text-align: center;   
 }
 
-button {
+.greenButton{
+    background-color: rgba(50, 50, 100, 0);
+    border: 0px;
+    
+}
+
+.psbutton {
     background-color: #EC9224;
     color: white;
     border: 0px;
@@ -30,7 +35,7 @@ html {
 }
 
 
-table{
+.gameTable{
     border: 5px solid;
     border-collapse: collapse;
     color: pink;
@@ -317,7 +322,7 @@ h1{
         margin-top: inherit;
     }
 
-    h2 {
+    .modif h2 {
         color: white;
         padding: 1em;
         background: #0D0B26;
@@ -328,12 +333,21 @@ h1{
     }
    
    
-
-
 h1 {
     margin-top: 3%;
 }
 
+.banniere {
+    background-image: url(image/b1a87cf5-e99e-4595-8b73-ac0e003718b6.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding: 80px;
+    background-position: center;
+    background-size: cover;
+   
+}
 
 .jouer {
     text-align: center;
@@ -575,4 +589,59 @@ h1 {
     margin-left: 66.5%;
     margin-top: -2.8%;
     filter: brightness(1);
+}
+
+.miniChat {
+    margin: auto;
+    max-width: 300px;
+    padding: 0 20px;
+    margin-right: 0;
+    background-color: white;
+    opacity: 0.85;
+    border-radius:10px;
+}
+
+  
+.chatTitle{
+background-color: rgb(102, 150, 247);
+color: white;
+
+} 
+  
+.containerGrey {
+    border: 2px solid #dedede;
+    background-color: #bbbbbb;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px 0;
+    margin-right: 30px ;
+}
+  
+.containerBlue {
+    border: 2px solid #dedede;
+    background-color: #81b7ee;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px 0;
+    margin-left: 30px ;
+}
+  
+  
+.time-right {
+    float: right;
+    color: #aaa;
+}
+  
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.messagerie{
+    display: flex;
+}
+
+.sendButton{
+    background-color: #81b7ee;
+    color: white;
 }
