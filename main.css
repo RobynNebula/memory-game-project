@@ -273,3 +273,26 @@ h1 {
     margin-left: 66.5%;
     filter: brightness(1);
 }
+
+.metier1 {
+    color: white;
+    text-align: center;
+    margin-top: 4%;
+    filter: brightness(1);
+}
+
+.metier2 {
+    color: white;
+    text-align: center;
+    margin-right: 66.5%;
+    margin-top: -3%;
+    filter: brightness(1);
+}
+
+.metier3 {
+    color: white;
+    text-align: center;
+    margin-left: 66.5%;
+    margin-top: -2.8%;
+    filter: brightness(1);
+}
