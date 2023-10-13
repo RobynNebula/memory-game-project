@@ -18,7 +18,6 @@
 .linkContainer{
     display: flex;
     min-height: 5%;
-
     flex: 1;
     justify-content: space-around;
     margin-left: 40%;
