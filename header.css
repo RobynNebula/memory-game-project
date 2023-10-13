@@ -1,6 +1,11 @@
 .head section{
     display: flex;
+    color:white;
+    min-height: 5%;
+    margin-left: 10%;
+    margin-top: 1%;
 }
+
 
 
 .linkContainer{
@@ -11,6 +16,7 @@
     margin-left: 40%;
     margin-right: 10%;
 }
+
 
 .head section p{
     color:white;
