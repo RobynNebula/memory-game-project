@@ -51,7 +51,7 @@
     .contact input {
         background-color: #272645;
         border: 0px;
-        width: 300px; 
+        width: 200px; 
         height: 30px;
         color: white;
         margin-bottom: 8px;
@@ -62,12 +62,18 @@
         margin-right: 20px;
     }
 
+    .contact .wrap .sujet {
+        width: 95%;
+    }
+
     /*taille case message*/
     .message {
         width: 46%;
         height: 48%;
         background-color: #272645;
         border: 0;
+        width: 95%;
+        height: 126%;
     }
     
     /*Bouton envoyer*/
@@ -77,7 +83,7 @@
         border: 0px;
         width: 70px; 
         height: 30px;
-        margin-top: inherit;
+        margin-top: 8%;
     }
    
     .contact .formulairecontact > div {
