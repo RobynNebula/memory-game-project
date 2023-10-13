@@ -10,6 +10,7 @@
 
 .greenButton{
     background-color: rgba(50, 50, 100, 0);
+    border: 0;
 }
 
 section {
@@ -33,7 +34,7 @@ section {
 
 
 
-.buttonformu:hover {
+.buttonform:hover {
     scale: 1.3;
 }
 
