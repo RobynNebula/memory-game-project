@@ -1,19 +1,4 @@
 
-/*.foot{
-    margin-top: 50px;
-    display: flex;
-    align-content: flex-end;
-    color: white;
-    justify-content: space-evenly;
-    position: absolute;
-    width: 100%;
-    background-color: rgba(58, 14, 141, 0.2);
-
-}
-
-span{
-    color: orange;
-}*/
 
 .foot {
     display: flex;
