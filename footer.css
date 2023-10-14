@@ -1,20 +1,21 @@
-
-
 .foot {
-    display: flex;
-    color: white;
-    justify-content: space-evenly;
-    width: 100%;
-    background-color: rgba(58, 14, 141, 0.2);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 10%;
-
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  background-color: #0d0b26;
+  margin-top: 10%;
+  padding-top: 6%;
 }
 
 span {
-
-    color: orange;
+  color: orange;
 }
 
+ul {
+  color: orange;
+  list-style-type: square;
+}
 
-
+.li {
+  color: white;
+}
