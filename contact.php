@@ -3,9 +3,9 @@
 <html>
 
     <head>
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="./assets/style/header.css">
+        <link rel="stylesheet" href="./assets/style/main.css">
+        <link rel="stylesheet" href="./assets/style/footer.css">
         <meta charset="UTF-8">
     </head>
 
@@ -13,14 +13,14 @@
     <!--En-tête-->
     <header class="head"> 
         <section>
-            <a href="thepowerofmemory.html">The power of memory</a>
+            <a href="thepowerofmemory.php">The power of memory</a>
             <div class="linkContainer">
-                <a href="accueil.html">Accueil</a>
-                <a href="login.html"> login </a>
-                <a href="thèmeLevel.html"> Jeu </a>
-                <a href="scores.html">Scores</a>
-                <a href="contact.html">Nous contacter</a>
-                <a href="MyAccount.html"><img class="avatar" src="./image/avatar-homme.png"></a>
+                <a href="accueil.php">Accueil</a>
+                <a href="login.php"> login </a>
+                <a href="./games/memory/thèmeLevel.php" target="_blank"> Jeu </a>
+                <a href="./games/memory/scores.php" target="_blank"> Scores </a>
+                <a href="contact.php">Nous contacter</a>
+                <a href="MyAccount.php"><img class="avatar" src="./assets/image/avatar-homme.png"></a>
             </div>
         </section>
     </header>
@@ -34,7 +34,7 @@
     <div class="icone">
         <div class="numero">
             <div class="orange">
-                <img src="./image/telephone-mobile.png">
+                <img src="./assets/image/telephone-mobile.png">
             </div><br>
 
             <div >06 05 04 03 02</div>
@@ -42,7 +42,7 @@
 
         <div class="mail">
             <div class="lettre">
-                <img src="./image/email.png">
+                <img src="./assets/image/email.png">
             </div><br>
             
             <div>support@powerofmemory.com</div> 
@@ -50,7 +50,7 @@
 
         <div class="lieu">
             <div class="endroit">
-                <img src="./image/espace-reserve.png">
+                <img src="./assets/image/espace-reserve.png">
             </div><br>
 
             <div>Paris</div>

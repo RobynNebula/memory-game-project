@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <link href="style.css" rel="stylesheet" >
-    <link href="header.css" rel="stylesheet" >
-    <link href="footer.css" rel="stylesheet" >
-    <link href="main.css" rel="stylesheet" >
+    <link href="./assets/style/style.css" rel="stylesheet" >
+    <link href="./assets/style/header.css" rel="stylesheet" >
+    <link href="./assets/style/footer.css" rel="stylesheet" >
+    <link href="./assets/style/main.css" rel="stylesheet" >
 </head>
 
 <body class="login">
@@ -16,10 +16,10 @@
             <div class="linkContainer">
                 <a href="accueil.html">Accueil</a>
                 <a href="login.html"> login </a>
-                <a href="thèmeLevel.html"> Jeu </a>
-                <a href="scores.html">Scores</a>
+                <a href="./games/memory/thèmeLevel.php" target="_blank"> Jeu </a>
+                <a href="./games/memory/scores.php" target="_blank"> Scores </a>
                 <a href="contact.html">Nous contacter</a>
-                <a href="MyAccount.html"><img class="avatar" src="./image/avatar-homme.png"></a>
+                <a href="MyAccount.html"><img class="avatar" src="./assets/image/avatar-homme.png"></a>
             </div>
         </section>
 

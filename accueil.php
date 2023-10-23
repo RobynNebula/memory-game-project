@@ -2,24 +2,24 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <link href="style.css" rel="stylesheet" />
-    <link href="header.css" rel="stylesheet" />
-    <link href="footer.css" rel="stylesheet" />
-    <link href="main.css" rel="stylesheet" />
+    <link href="./assets/style/style.css" rel="stylesheet" />
+    <link href="./assets/style/header.css" rel="stylesheet" />
+    <link href="./assets/style/footer.css" rel="stylesheet" />
+    <link href="./assets/style/main.css" rel="stylesheet" />
   </head>
 
   <body>
     <header class="head">
       <section>
-        <a href="thepowerofmemory.html">The power of memory</a>
+        <a href="thepowerofmemory.php">The power of memory</a>
         <div class="linkContainer">
-          <a href="accueil.html"> Accueil </a>
-          <a href="login.html"> login </a>
-          <a href="thèmeLevel.html" target="_blank"> Jeu </a>
-          <a href="scores.html" target="_blank"> Scores </a>
-          <a href="contact.html" target="_blank"> Nous contacter </a>
-          <a href="MyAccount.html" target="_blank">
-            <img class="avatar" src="./image/avatar-homme.png"/>
+          <a href="accueil.php"> Accueil </a>
+          <a href="login.php"> login </a>
+          <a href="./games/memory/thèmeLevel.php" target="_blank"> Jeu </a>
+          <a href="./games/memory/scores.php" target="_blank"> Scores </a>
+          <a href="contact.php" target="_blank"> Nous contacter </a>
+          <a href="MyAccount.php" target="_blank">
+            <img class="avatar" src="./assets/image/avatar-homme.png"/>
           </a>
          </div>
       </section>
@@ -37,17 +37,17 @@
       <div class="imagecentrale">
         <div>
           <div class="imgordi">
-            <img src="./image/ordinateur.png" />
+            <img src="./assets/image/ordinateur.png" />
           </div>
         </div>
         <div>
           <div class="imgnoel">
-            <img src="./image/noel.jpg" />
+            <img src="./assets/image/noel.jpg" />
           </div>
         </div>
         <div>
           <div class="imgpoker">
-            <img src="./image/poker.png" />
+            <img src="./assets/image/poker.png" />
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@
     </div>
 
     <div class="gta">
-      <img src="./image/jeu.jpg" />
+      <img src="./assets/image/jeu.jpg" />
       <div class="bloque">
         <div class="bloque1">
           <div class="bleu">
@@ -136,43 +136,43 @@
 
 <div class="presentation">
 <div class="monsieur1">
-  <img src="./image/homme1.jpg">
+  <img src="./assets/image/homme1.jpg">
   <div class="nom1">
     <h4>HAMILTON</h4>
     <p>Games Developer</p>
   </div>
   <div class="reseau">
-  <img src="image/discord.png">
-  <img src="image/insta.png">
-  <img src="image/twitter.png">
+  <img src="./assets/image/discord.png">
+  <img src="./assets/image/insta.png">
+  <img src="./assets/image/twitter.png">
 </div>
 </div>
 <br>
 
 <div class="monsieur2">
-  <img src="./image/homme2.jpg">
+  <img src="./assets/image/homme2.jpg">
   <div class="nom1">
     <h4>MICKHAEL</h4>
     <p>Games Designer</p>
   </div>
   <div class="reseau">
-  <img src="image/discord.png">
-  <img src="image/insta.png">
-  <img src="image/twitter.png">
+  <img src="./assets/image/discord.png">
+  <img src="./assets/image/insta.png">
+  <img src="./assets/image/twitter.png">
 </div>
 </div>
 <br>
 
 <div class="monsieur3">
-  <img src="./image/homme3.jpg">
+  <img src="./assets/image/homme3.jpg">
   <div class="nom1">
     <h4>ARNOLD</h4>
     <p>Games Designer</p>
   </div>
   <div class="reseau">
-  <img src="image/discord.png">
-  <img src="image/insta.png">
-  <img src="image/twitter.png">
+  <img src="./assets/image/discord.png">
+  <img src="./assets/image/insta.png">
+  <img src="./assets/image/twitter.png">
 </div>
 </div>
 </div>

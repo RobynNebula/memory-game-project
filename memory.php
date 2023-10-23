@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=2.0" />
     <title>Memory thème 1</title>
-    <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="footer.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style/header.css" />
+    <link rel="stylesheet" href="./assets/style/main.css" />
+    <link rel="stylesheet" href="./assets/style/footer.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
   </head>
   <body>
     <header class="head">
@@ -16,11 +16,11 @@
         <div class="linkContainer">
           <a href="accueil.html">Accueil</a>
           <a href="login.html"> login </a>
-          <a href="thèmeLevel.html"> Jeu </a>
-          <a href="scores.html">Scores</a>
+          <a href="./games/memory/thèmeLevel.php" target="_blank"> Jeu </a>
+          <a href="./games/memory/scores.php" target="_blank"> Scores </a>
           <a href="contact.html">Nous contacter</a>
           <a href="MyAccount.html"
-            ><img class="avatar" src="./image/avatar-homme.png"
+            ><img class="avatar" src="./assets/image/avatar-homme.png"
           /></a>
         </div>
       </section>
@@ -36,19 +36,19 @@
       <div class="level">
         <div class="levelButton">
           <button class="greenButton">
-            <img src="img/level_button/level1_button.png" />
+            <img src="./assets/img/level_button/level1_button.png" />
           </button>
         </div>
 
         <div class="levelButton">
           <button class="greenButton">
-            <img src="img/level_button/level2_button.png" />
+            <img src="./assets/img/level_button/level2_button.png" />
           </button>
         </div>
 
         <div class="levelButton">
           <button class="greenButton">
-            <img src="img/level_button/level3_button.png" />
+            <img src="./assets/img/level_button/level3_button.png" />
           </button>
         </div>
       </div>
@@ -57,42 +57,42 @@
         <div class="Level1">
           <table class="gameTable">
             <tr>
-              <td><img src="img/animeTheme1/hanabi.jpeg" /></td>
-              <td><img src="img/animeTheme1/hanabi.jpeg" /></td>
-              <td><img src="img/animeTheme1/lain.jpeg" /></td>
-              <td><img src="img/animeTheme1/lain.jpeg" /></td>
-              <td><img src="img/animeTheme1/mayuri.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/hanabi.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/hanabi.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/lain.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/lain.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/mayuri.jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/animeTheme1/mayuri.jpeg" /></td>
-              <td><img src="img/animeTheme1/misa.jpeg" /></td>
-              <td><img src="img/animeTheme1/misa.jpeg" /></td>
-              <td><img src="img/animeTheme1/nagisa.jpeg" /></td>
-              <td><img src="img/animeTheme1/nagisa.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/mayuri.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/misa.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/misa.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/nagisa.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/nagisa.jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/animeTheme1/nana.jpeg" /></td>
-              <td><img src="img/animeTheme1/nana.jpeg" /></td>
-              <td><img src="img/animeTheme1/rem.jpeg" /></td>
-              <td><img src="img/animeTheme1/rem.jpeg" /></td>
-              <td><img src="img/animeTheme1/rumi.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/nana.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/nana.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/rem.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/rem.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/rumi.jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/animeTheme1/rumi.jpeg" /></td>
-              <td><img src="img/animeTheme1/sailor moon.jpeg" /></td>
-              <td><img src="img/animeTheme1/sailor moon.jpeg" /></td>
-              <td><img src="img/animeTheme1/sato.jpeg" /></td>
-              <td><img src="img/animeTheme1/sato.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/rumi.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/sailor moon.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/sailor moon.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/sato.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/sato.jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/animeTheme1/shiro.jpeg" /></td>
-              <td><img src="img/animeTheme1/shiro.jpeg" /></td>
-              <td><img src="img/animeTheme1/yuzuki.jpeg" /></td>
-              <td><img src="img/animeTheme1/yuzuki.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/shiro.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/shiro.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/yuzuki.jpeg" /></td>
+              <td><img src="./assets/img/animeTheme1/yuzuki.jpeg" /></td>
               <td class="malus">-10points</td>
             </tr>
           </table>
@@ -101,275 +101,275 @@
         <div class="Level2">
           <table class="gameTable">
             <tr>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+            </tr>
+./assets/
+            <tr>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+            </tr>
+
+            <tr>./assets/
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-            </tr>
-
-            <tr>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-            </tr>
-
-            <tr>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
-              <td><img src="img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
+              <td><img src="./assets/img/backcards (2).jpeg" /></td>
             </tr>
           </table>
         </div>
-
+./assets/
         <div class="Level3">
           <table class="gameTable">
             <tr>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
             </tr>
 
             <tr>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
-              <td><img src="img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
+              <td><img src="./assets/img/backcards (3).jpeg" /></td>
             </tr>
           </table>
         </div>
