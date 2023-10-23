@@ -1,29 +1,16 @@
+<?php require_once 'utils/common.php' ?> 
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <link href="style.css" rel="stylesheet" />
-    <link href="header.css" rel="stylesheet" />
-    <link href="footer.css" rel="stylesheet" />
-    <link href="main.css" rel="stylesheet" />
-  </head>
+    
+
+    <?php 
+    
+    require_once SITE_ROOT.'partials/head.php' ?>
+
 
   <body>
-    <header class="head">
-      <section>
-        <a href="thepowerofmemory.html">The power of memory</a>
-        <div class="linkContainer">
-          <a href="accueil.html"> Accueil </a>
-          <a href="login.html"> login </a>
-          <a href="thèmeLevel.html" target="_blank"> Jeu </a>
-          <a href="scores.html" target="_blank"> Scores </a>
-          <a href="contact.html" target="_blank"> Nous contacter </a>
-          <a href="MyAccount.html" target="_blank">
-            <img class="avatar" src="./image/avatar-homme.png"/>
-          </a>
-         </div>
-      </section>
-    </header>
+  <?php require_once SITE_ROOT.'partials/header.php' ?>
     <div class="banner">
       <h1 class="bienvenue">BIENVENUE DANS NOTRE STUDIO !</h1>
       <h2 class="soustitre1">Venez challenger les cerveaux les plus agiles !</h2>
@@ -178,27 +165,6 @@
 </div>
 </div>
 </div>
-    <footer class="foot">
-      <div class="info">
-        <legend>Informations</legend>
-        <p>Contacter nous 7j/7 et 24h/24</p>
-        <p><span>Tél:</span> 605-040-302</p>
-        <p><span>Email:</span> support@powerofmemory.com</p>
-        <p><span>Localisation:</span> Cergy préfecture</p>
-      </div>
-
-      <div>
-        <legend>Power Of Memory</legend>
-        <br />
-        <ul>
-        <li><span class="li">Jouer !</span></li>
-        <br />
-        <li><span class="li">Les scores</span></li>
-        <br />
-        <li><span class="li">Nous contacter</span></li>
-        <br />
-      </ul>
-      </div>
-    </footer>
+  <?php require_once SITE_ROOT.'partials/footer.php'?>
   </body>
 </html>

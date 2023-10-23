@@ -1,28 +1,13 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="footer.css">
-        <meta charset="UTF-8">
-    </head>
+ 
+        <?php require_once SITE_ROOT.'partials/head.php' ?>
 
-    <body>
+<body class="monespace">
+
         <!--En-tête-->
-        <header class="head"> 
-            <section>
-                <p>The power of memory</p>
-                <div class="linkContainer">
-                    <a href="accueil.html">Accueil</a>
-                    <a href="login.html"> login </a>
-                    <a href="thèmeLevel.html"> Jeu </a>
-                    <a href="scores.html">Scores</a>
-                    <a href="contact.html">Nous contacter</a>
-                    <a href="MyAccount.html"><img class="avatar" src="./image/avatar-homme.png"></a>
-                </div>
-            </section>
-        </header>
+        <?php require_once SITE_ROOT.'partials/header.php' ?>
          <!--Fin en-tête-->
 
          <!--Corps-->
@@ -30,7 +15,7 @@
             <h1> Mon espace </h1>
         </div><br>
 
-         <body class="monespace">
+         
             <form class="modifier">
                 <div class="modifiermail">
 
@@ -51,33 +36,12 @@
                     <button class="ps" type="submit">Envoyer</button>
                 </div>
             </form>
-         </body>
+        
 
 
                  <!--Bas de page-->
         <br>
-        <footer class="foot">
-            <div class="info">
-              <legend>Informations</legend>
-              <p>Contacter nous 7j/7 et 24h/24</p>
-              <p><span>Tél:</span> 605-040-302</p>
-              <p><span>Email:</span> support@powerofmemory.com</p>
-              <p><span>Localisation:</span> Cergy préfecture</p>
-            </div>
-      
-            <div>
-              <legend>Power Of Memory</legend>
-              <br />
-              <ul>
-              <li><span class="li">Jouer !</span></li>
-              <br />
-              <li><span class="li">Les scores</span></li>
-              <br />
-              <li><span class="li">Nous contacter</span></li>
-              <br />
-            </ul>
-            </div>
-          </footer>
+        <?php require_once SITE_ROOT.'partials/footer.php' ?>
         <!--Fin bas de page-->
     </body>
 
