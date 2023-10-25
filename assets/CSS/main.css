@@ -645,3 +645,20 @@ h1 {
   margin-left: 35%;
   margin-right: -29%;
 }
+
+.search input {
+  background-color: #272645;
+  border: 0px;
+  width: 330px;
+  height: 30px;
+  color: white;
+}
+
+.search button {
+  background-color: #ec9224;
+    color: white;
+    border: 0px;
+    width: 70px;
+    height: 30px;
+    margin-top: inherit;
+}
