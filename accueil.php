@@ -1,4 +1,5 @@
 <?php require_once "utils/common.php" ?>
+<?php require_once "utils/database.php" ?>
 
 <!DOCTYPE html>
 <html>
@@ -87,20 +88,32 @@
     <div class="bloque">
       <div class="bloque1">
         <div class="bleu">
+      
+          <p>
           <?php
             $pdo = connectToDbAndGetPdo();
-            $pdoStatement = $pdo->prepare('SELECT COUNT(*) AS playerNb FROM users');
+            $pdoStatement = $pdo->prepare('SELECT COUNT(*) AS nbparty FROM scores');
             $pdoStatement->execute();
-            $player = $pdoStatement->fetch();
-            echo $player->playerNb;
+            $party = $pdoStatement->fetch();
+            echo $party->nbparty;
           ?>
-          <p>
-            310 <br />
+             <br />
             Parties Jouées
           </p>
         </div>
         <div class="rose">
-          <p>10 Sec <br />Temps Record</p>
+          <p>
+          <?php
+            $pdo = connectToDbAndGetPdo();
+            $pdoStatement = $pdo->prepare('SELECT score AS best_score
+            FROM scores 
+            ORDER BY score ASC
+            LIMIT 1');
+            $pdoStatement->execute();
+            $score = $pdoStatement->fetch();
+            echo $score->best_score;
+          ?>
+          <br />Temps Record</p>
         </div>
 
       </div>
@@ -113,7 +126,14 @@
         </div>
         <div class="jaune">
           <p>
-            21 300<br />
+          <?php
+            $pdo = connectToDbAndGetPdo();
+            $pdoStatement = $pdo->prepare('SELECT COUNT(*) AS player FROM users');
+            $pdoStatement->execute();
+            $player = $pdoStatement->fetch();
+            echo $player->player;
+          ?>
+          <br />
             Joueurs Inscrits
           </p>
         </div>
