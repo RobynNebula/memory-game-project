@@ -18,3 +18,19 @@ function connectToDbAndGetPdo()
     echo 'La connexion à la base de données a échouée.';
   }
 }
+
+function isMailValid($mail): bool
+{
+    return filter_var($mail, FILTER_VALIDATE_EMAIL);
+}
+?>
+
+<?php  if (isset($_GET['mail'])) {
+$isMailValid = isMailValid($_GET['mail']);
+
+if (!$isMailValid) {
+    $message = "le format de l'email n'est pas valide";
+}
+
+};
+

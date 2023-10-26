@@ -1,60 +1,78 @@
 <?php require_once "utils/common.php" ?>
 <?php require_once "utils/database.php" ?>
 <!DOCTYPE html>
-<?php require_once SITE_ROOT. "partials/head.php" ?>
+<?php require_once SITE_ROOT . "partials/head.php" ?>
 <html>
 
-<body class="inscription"> 
+<body class="inscription">
 
-<?php require_once SITE_ROOT. "partials/header.php" ?>
-
-<?php function isMailValid($mail): bool
-{
-    return filter_var($mail, FILTER_VALIDATE_EMAIL);
-}
-?>
-
-<?php  if (isset($_GET['mail'])) {
+    <?php require_once SITE_ROOT . "partials/header.php" ?>
 
 
-$isMailValid = isMailValid($_GET['mail']);
-
-if (!$isMailValid) {
-    $message = "le format de l'email n'est pas valide";
-} }; 
-?>
-
-    <div class="banner2"> 
+    <div class="banner2">
         <h1>INSCRIPTION</h1>
     </div>
-    
-        <form class="formulaire">
-            <form action="/page-traitement-donnees" method="post">
+
+    <form class="formulaire">
+        <form action="/page-traitement-donnees" method="post">
             <input type="mail" name="mail" placeholder="Email" required><br>
 
-            <?php if (isset($message)) : ?>
-            <p><?php echo $message ?></p>
-            <?php endif; ?>
-
+                <span>
+                    <?php if (isset($message)) {
+                                  echo $message ;} ?> 
+                </span>
+            
             <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" required><br>
 
-            <?php 
-            if (isset($_GET['pseudo'])){
-                if (strlen($_GET['pseudo']) < 4){
-                    $erreur = 'Votre pseudo doit contenir minimum 4 caractères.';
-                } 
-            }
+            <span>
+                <?php
+                if (isset($_GET['pseudo'])) {
+                    if (strlen($_GET['pseudo']) < 4) {
+                        echo 'Votre pseudo doit contenir minimum 4 caractères.';
+                    }
+                }
+                $pdo = connectToDbAndGetPdo();
+                if (isset($_GET['pseudo'])) {
+                    $pdoStatement = $pdo->prepare('SELECT COUNT(pseudo) AS nbr FROM users WHERE pseudo = :pseudo');
+                    $pdoStatement->execute([':pseudo' => $_GET['pseudo']]);
+                    $user = $pdoStatement->fetch();
+                    if ($user->nbr != 0) { {
+                            echo "Ce pseudo est déjà utilisé ";
+                        }
+                    }
+                }?>
+            </span>
+
+
+            <input type="password" name=password id="password" placeholder="Mot de passe" required><br>
+            <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="Confirmez le mot de passe" required><br>
+
+            <span>
+            <?php  
+            $passwordPattern = '/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,}$/'; 
+            if (isset($_GET['password'])) {
+                if(!preg_match($passwordPattern,$_GET['password'])) {
+                    echo 'Le mot de passe doit contenir :
+                    - au moins 8 caractères,
+                    - une minuscule,
+                    - une majuscule,
+                    - un chiffre
+                    - un caractère spécial';
+                }  
+                if ($_GET['password'] != $_GET['passwordConfirm']){
+                    echo  'Les 2 mots de passe sont différents.';
+                } }
             ?>
+            </span>
 
-           
-
-            <input type="password" id="password" placeholder="Mot de passe" required><br>
-            <input type="password" id="password" placeholder="Confirmez le mot de passe" required><br>
+            
             <button class="ps" type="submit">Inscription</button>
-        </form>
-    </div>
 
-    <?php require_once SITE_ROOT. "partials/footer.php" ?>
+        </form>
+        </div>
+
+        <?php require_once SITE_ROOT . "partials/footer.php" ?>
 
 </body>
+
 </html>
