@@ -7,9 +7,8 @@
 
 <body class="contact">
    
-   <?php require_once SITE_ROOT. "partials/header.php" ?>
+    <?php require_once SITE_ROOT. "partials/header.php" ?>
  
-
     <div class="banner2"> 
         <h1> NOUS CONTACTER </h1>
     </div>

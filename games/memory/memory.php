@@ -7,7 +7,7 @@
   
   <body>
    
-  <?php require_once SITE_ROOT. "partials/header.php" ?>
+    <?php require_once SITE_ROOT. "partials/header.php" ?>
 
     <div class="banner2">
       <h1>LETS PLAY</h1>
