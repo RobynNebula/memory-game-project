@@ -8,3 +8,4 @@ define('PROJECT_FOLDER', '/memory-game-project/');
 define('SITE_ROOT', $_SERVER['DOCUMENT_ROOT'] . PROJECT_FOLDER); 
 
 session_start(); 
+
