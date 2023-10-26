@@ -15,7 +15,7 @@
 
     <form class="formulaire">
         <form action="/page-traitement-donnees" method="post">
-            <input type="mail" name="mail" placeholder="Email" required><br>
+            <input type="text" name="mail" placeholder="Email" required><br>
 
                 <span>
                     <?php if (isset($message)) {
@@ -67,6 +67,23 @@
 
             
             <button class="ps" type="submit">Inscription</button>
+
+            <?php
+
+            if(isset($_GET["password"])){
+                $pdo = connectToDbAndGetPdo();
+                $pdoStatement = $pdo->prepare('INSERT INTO users ( email, passwords, pseudo) VALUES
+                (:email, :passwords, :pseudo)');
+                $pdoStatement->execute([
+                ':email' => $_GET['mail'],
+                ':passwords' => password_hash($_GET['password'], CRYPT_SHA256) ,
+                ':pseudo' => $_GET['pseudo'],
+                ]);
+                
+            } 
+            
+
+            ?>
 
         </form>
         </div>
