@@ -1,4 +1,5 @@
 <?php require_once "utils/common.php" ?>
+<?php require_once "utils/database.php" ?>
 <!DOCTYPE html>
 <?php require_once SITE_ROOT. "partials/head.php" ?>
 <html>
