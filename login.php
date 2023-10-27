@@ -1,7 +1,8 @@
 <?php require_once "utils/common.php" ?>
 <?php require_once "utils/database.php" ?>
-<?php
 
+<span>
+<?php
 if (isset($_GET['email']) && isset($_POST['password'])) {
     $pdo = connectToDbAndGetPdo();
     $pdoStatement = $pdo->prepare('SELECT * FROM users WHERE email = :email AND passwords = :passwords');
@@ -13,9 +14,11 @@ if (isset($_GET['email']) && isset($_POST['password'])) {
 
     if($user){
         $_SESSION['user_id'] = $user->id;
+        echo "vous êtes connecté";
     }
 }
 ?>
+</span>
 <!DOCTYPE html>
 <html>
 <?php require_once SITE_ROOT . "partials/head.php" ?>
