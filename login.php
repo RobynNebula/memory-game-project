@@ -30,7 +30,7 @@
             $pdo = connectToDbAndGetPdo();
             $pdoStatement = $pdo->prepare('SELECT * FROM users WHERE id = :id' );
             $pdoStatement->execute([
-            ':id' => $_SESSION['user_id'] = 1,
+            ':id' => $_SESSION['user_id'] = 1 ,
             ]);
             $userId= $pdoStatement->fetchAll(); 
             

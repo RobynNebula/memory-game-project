@@ -1,9 +1,9 @@
 <?php 
-$_SESSION['userId'] = 2 ;
-if (!empty($_SESSION['userId'])) {
+$_SESSION['user_id'] = 0 ;
+if (!empty($_SESSION['user_id'])) {
     $pdo = connectToDbAndGetPdo();
-    $pdoSelectUserConnected = $pdo->prepare('SELECT pseudo FROM users WHERE id = :userId ');
-    $pdoSelectUserConnected->execute([":userId" => $_SESSION['userId']]); 
+    $pdoSelectUserConnected = $pdo->prepare('SELECT pseudo FROM users WHERE id = :user_id ');
+    $pdoSelectUserConnected->execute([":user_id" => $_SESSION['user_id']]); 
     $pseudoUserConnected = $pdoSelectUserConnected->fetch();
     $pseudoOfUserConnected = strtoupper($pseudoUserConnected->pseudo);
 

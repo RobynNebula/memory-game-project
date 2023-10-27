@@ -9,7 +9,7 @@
 <?php require_once SITE_ROOT. "partials/header.php" ?>
   
     <body>
-        <div class="banner"> 
+        <div class="banner2"> 
             <h1> SCORES </h1>
         </div><br>
 
