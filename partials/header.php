@@ -1,5 +1,4 @@
 <?php 
-$_SESSION['user_id'] = 0 ;
 if (!empty($_SESSION['user_id'])) {
     $pdo = connectToDbAndGetPdo();
     $pdoSelectUserConnected = $pdo->prepare('SELECT pseudo FROM users WHERE id = :user_id ');

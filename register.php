@@ -76,8 +76,8 @@
                 (:email, :passwords, :pseudo)');
                 $pdoStatement->execute([
                 ':email' => $_GET['mail'],
-                ':passwords' => password_hash($_GET['password'], CRYPT_SHA256) ,
-                ':pseudo' => $_GET['pseudo'],
+                ':passwords' => hash('sha256', $_GET['password']),
+                ':pseudo' => $_POST['pseudo'],
                 ]);
                 
             } 
