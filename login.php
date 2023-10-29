@@ -16,7 +16,8 @@ if (isset($_GET['email']) && isset($_POST['password'])) {
         $_SESSION['user_id'] = $user->id;
         echo "vous êtes connecté";
     }
-}
+} 
+
 ?>
 </span>
 <!DOCTYPE html>

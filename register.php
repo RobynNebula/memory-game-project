@@ -44,7 +44,7 @@
             </span>
 
 
-            <input type="password" name=password id="password" placeholder="Mot de passe" required><br>
+            <input type="password" name="password" id="password" placeholder="Mot de passe" required><br>
             <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="Confirmez le mot de passe" required><br>
 
             <span>
@@ -52,7 +52,7 @@
             $passwordPattern = '/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,}$/'; 
             if (isset($_GET['password'])) {
                 if(!preg_match($passwordPattern,$_GET['password'])) {
-                    echo 'Le mot de passe doit contenir :
+                    echo'Le mot de passe doit contenir :
                     - au moins 8 caractères,
                     - une minuscule,
                     - une majuscule,
@@ -70,14 +70,14 @@
 
             <?php
 
-            if(isset($_GET["password"])){
+            if(isset($_POST["password"])){
                 $pdo = connectToDbAndGetPdo();
                 $pdoStatement = $pdo->prepare('INSERT INTO users ( email, passwords, pseudo) VALUES
                 (:email, :passwords, :pseudo)');
                 $pdoStatement->execute([
                 ':email' => $_GET['mail'],
-                ':passwords' => hash('sha256', $_GET['password']),
-                ':pseudo' => $_POST['pseudo'],
+                ':passwords' => hash('sha256', $_POST['password']),
+                ':pseudo' => $_GET['pseudo'],
                 ]);
                 
             } 

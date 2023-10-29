@@ -18,17 +18,17 @@
    
       <div class="principalPinkButton">
         <div class="pinkButton">
-          <a href="memory.php">
+          <a href= "<?php echo PROJECT_FOLDER?>games/memory/memory.php">
             <img class="PButton" src="<?= PROJECT_FOLDER ?>assets/img/Theme_button/anime.png" />
           </a>
         </div>
         <div class="pinkButton">
-          <a href="memory2.php">
+          <a href="<?php echo PROJECT_FOLDER?>games/memory/memory2.php">
             <img class="PButton" src="<?= PROJECT_FOLDER ?>assets/img/Theme_button/goofy_cat.png" />
           </a>
         </div>
         <div class="pinkButton">
-          <a href="memory3.php">
+          <a href="<?php echo PROJECT_FOLDER?>games/memory/memory3.php">
             <img class="PButton" src="<?= PROJECT_FOLDER ?>assets/img/Theme_button/space_galaxy.png" />
           </a>
         </div>
