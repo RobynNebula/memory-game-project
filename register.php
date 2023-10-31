@@ -45,7 +45,7 @@
             </span>
 
 
-            <input type="password" name=password id="password" placeholder="Mot de passe" required><br>
+            <input type="password" name="password" id="password" placeholder="Mot de passe" required><br>
             <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="Confirmez le mot de passe" required><br>
 
             <span>

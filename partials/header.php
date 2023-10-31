@@ -16,7 +16,7 @@ if (!empty($_SESSION['user_id'])) {
         <div class="linkContainer">
           <div><a href="<?php echo PROJECT_FOLDER ?>accueil.php" <?= ($_SERVER['PHP_SELF'] == PROJECT_FOLDER . 'accueil.php') ? 'class="active"' : '' ?> > Accueil </a></div>
           <div><a href="<?php echo PROJECT_FOLDER ?>login.php" <?= ($_SERVER['PHP_SELF'] == PROJECT_FOLDER . 'login.php') ? 'class="active"' : '' ?> > login </a></div>
-          <div><a href="<?php echo PROJECT_FOLDER ?>games/memory/thèmeLevel.php" <?= ($_SERVER['PHP_SELF'] == PROJECT_FOLDER . 'games/memory/thèmeLevel.php') ? 'class="active"' : '' ?> > Jeu </a></div>
+          <div><a href="<?php echo PROJECT_FOLDER ?>games/memory/game.php" <?= ($_SERVER['PHP_SELF'] == PROJECT_FOLDER . 'games/memory/game.php') ? 'class="active"' : '' ?> > Jeu </a></div>
           <div><a href="<?php echo PROJECT_FOLDER ?>games/memory/scores.php" <?= ($_SERVER['PHP_SELF'] == PROJECT_FOLDER . 'games/memory/scores.php') ? 'class="active"' : '' ?> > Scores </a></div>
           <div><a href="<?php echo PROJECT_FOLDER ?>contact.php" <?= ($_SERVER['PHP_SELF'] == PROJECT_FOLDER . 'contact.php') ? 'class="active"' : '' ?> > Nous contacter </a></div>
           <div><a href="<?php echo PROJECT_FOLDER ?>MyAccount.php" <?= ($_SERVER['PHP_SELF'] == PROJECT_FOLDER . 'connexion.php') ? 'class="active"' : '' ?> >

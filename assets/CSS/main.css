@@ -116,6 +116,8 @@ td {
 
 .PButton {
 	height: 100px;
+	background-color: rgba(50, 50, 100, 0);
+	border: 0;
 }
 
 .principalPinkButton {
