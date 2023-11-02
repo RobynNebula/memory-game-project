@@ -46,6 +46,7 @@ password = function () {
 
 document.getElementById("password").addEventListener("keyup", password);
 
+
 document.getElementById("send").addEventListener("click", function() {
     sendMessage();
 });

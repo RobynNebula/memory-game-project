@@ -90,32 +90,33 @@
     <div class="bloque">
       <div class="bloque1">
         <div class="bleu">
-      
+
           <p>
-          <?php
+            <?php
             $pdo = connectToDbAndGetPdo();
             $pdoStatement = $pdo->prepare('SELECT COUNT(*) AS nbparty FROM scores');
             $pdoStatement->execute();
             $party = $pdoStatement->fetch();
             echo $party->nbparty;
-          ?>
-             <br />
+            ?>
+            <br />
             Parties Jouées
           </p>
         </div>
         <div class="rose">
           <p>
-          <?php
+            <?php
             $pdo = connectToDbAndGetPdo();
-            $pdoStatement = $pdo->prepare('SELECT score AS best_score
+            $pdoStatement = $pdo->prepare('SELECT score_game AS best_score
             FROM scores 
-            ORDER BY score ASC
+            ORDER BY score_game ASC
             LIMIT 1');
             $pdoStatement->execute();
             $score = $pdoStatement->fetch();
             echo $score->best_score;
-          ?>
-          <br />Temps Record</p>
+            ?>
+            <br />Temps Record
+          </p>
         </div>
 
       </div>
@@ -128,14 +129,14 @@
         </div>
         <div class="jaune">
           <p>
-          <?php
+            <?php
             $pdo = connectToDbAndGetPdo();
             $pdoStatement = $pdo->prepare('SELECT COUNT(*) AS player FROM users');
             $pdoStatement->execute();
             $player = $pdoStatement->fetch();
             echo $player->player;
-          ?>
-          <br />
+            ?>
+            <br />
             Joueurs Inscrits
           </p>
         </div>
