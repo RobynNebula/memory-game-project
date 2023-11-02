@@ -27,7 +27,6 @@ body {
 
 section {
 	text-align: center;
-	margin-top: 5%;
 	background-color: #13102d;
 }
 
@@ -96,21 +95,11 @@ td {
 }
 
 .Level1 {
-	margin-top: 5%;
-	margin-left: 23.5%;
+  margin-top: 5%;
+  display: flex;
+	justify-content: center;
 }
 
-
-.Level2 {
-	margin-top: 5%;
-	margin-left: 21%;
-}
-
-.Level3 {
-	margin-top: 5%;
-	margin-left: 14%;
-	margin-bottom: 10%;
-}
 
 .pinkButton:hover {
 	scale: 1.2;
@@ -726,3 +715,96 @@ h1 {
 	margin-top: inherit;
 }
 
+#ccp {
+  background-color: rgb(104, 0, 104);
+  border-radius: 20px 20px 20px 20px;
+}
+
+.chatContainer {
+  width: 25%;
+  min-height: 500px;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: 70%;
+  max-height: 500px;
+  overflow-y: scroll;
+  bottom: 0;
+}
+
+.grey {
+  border: none;
+  background-color: #dedede;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 250px;
+}
+
+.blue {
+  border-color: none;
+  background-color: #79baff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 250px;
+  margin-left: 100px;
+}
+
+.blue::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.grey::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.time-right {
+  float: inline-end;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+.chatTitle {
+  text-align: center;
+  color: white;
+  height: 50px;
+  padding-top: 20px;
+  border-radius: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-right {
+  float: inline-end;
+}
+
+.msgbox{
+  background-color: #e9a9f5;
+	border: 0;
+  height: 50px;
+  width: 280px;
+}
+
+#send{
+  height: 50px;
+  width: 100px;
+}
+
+.chatTitle button {
+  background-color: red;
+}
+
+.hidden {
+ visibility: hidden;
+}
+
+.xButton{
+  margin-left: 200px;
+}

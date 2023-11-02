@@ -7,7 +7,9 @@
 
 <body>
 
-  <?php require_once SITE_ROOT . "partials/header.php" ?>
+  <div>
+    <?php require_once SITE_ROOT . "partials/header.php" ?>
+  </div>
 
   <div class="banner">
     <h1 class="bienvenue">BIENVENUE DANS NOTRE STUDIO !</h1>
@@ -187,8 +189,65 @@
     </div>
   </div>
 
+  
+    <div class="chatContainer">
+      <div class="chatTitle">
+        <div class="cititle">
+          <h2> CHAT</h2>
+        </div>
+        <div class="xButton">
+         <button id="displayText" onclick="display()"> X </button>
+        </div>
+      </div>
 
+      <div id="ccp">
+        <div id="msgContainer" class="msgContainer">
+            <?php
+            $pdo = connectToDbAndGetPdo();
+            $pdoStatement = $pdo->prepare('SELECT u.pseudo, m.text_message, m.date_hour_message 
+                                            FROM message AS m INNER JOIN users AS u
+                                              ON m.users_id_from = u.id
+                                              ORDER BY date_hour_message ASC ');
+            $pdoStatement->execute([]);
+            $msgs = $pdoStatement->fetchAll(); ?>
 
+          <?php foreach($msgs as $msg) : ?>
+              <?php if($msg->pseudo == 'ilonar') : ?>
+                  <div class="blue">
+                      <span class="time-left"> <?php echo $msg->pseudo ?> </span>
+                      <p> <?php echo $msg->text_message ?> </p>
+                      <span class="time-left"> <?php echo $msg->date_hour_message ?> </span>
+                  </div>
+                <?php else: ?> 
+                  <div class="grey">
+                    <span class="time-right"> <?php echo $msg->pseudo ?> </span>
+                    <p class="text-right">  <?php echo $msg->text_message ?> </p>
+                    <span class="text-right"> <?php echo $msg->date_hour_message ?> </span>
+                  </div>
+                <?php endif ?>
+          <?php endforeach ?>
+        </div> 
+            
+          <div class="msgsender">
+          <input class="msgbox" name="msg" type="text" id="message" placeholder="Saisissez un message...">
+          <button type="submit" id="send">Envoyer</button>
+        </div>
+      </div>
+    </div>
+
+    <?php
+      if (isset($_GET['msg'])) {
+          $pdo = connectToDbAndGetPdo();
+          $pdoStatement = $pdo->prepare('INSERT INTO message (text_message) VALUES
+          ( :text_message, :date_hour_message)');
+          $pdoStatement->execute([
+              ':text_message' => $_GET['msg'],
+          ]);
+      }
+
+      ?>
+
+  <script src="chat.js">  </script>
   <?php require_once SITE_ROOT . "partials/footer.php" ?>
 
 </body>

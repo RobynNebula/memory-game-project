@@ -69,8 +69,6 @@
       </div>
 
 
-
-    
    <?php require_once SITE_ROOT. "partials/footer.php" ?>
     <script src="../../script.js"> </script>
   </body>
