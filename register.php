@@ -45,11 +45,7 @@
             </span>
 
 
-<<<<<<< Updated upstream
             <input type="password" name=password id="password" placeholder="Mot de passe" required><br>
-=======
-            <input type="password" name="password" id="password" placeholder="Mot de passe" required><br>
->>>>>>> Stashed changes
             <span id="mdpdiv"></span>
             <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="Confirmez le mot de passe" required><br>
             <span id="erreurdiv"></span>
@@ -94,11 +90,7 @@
         </div>
 
         <?php require_once SITE_ROOT . "partials/footer.php" ?>
-<<<<<<< Updated upstream
-        <script src="script.js"></script>
-=======
         <script src="register.js"></script>
->>>>>>> Stashed changes
 </body>
 
 </html>
