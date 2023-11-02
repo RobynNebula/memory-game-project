@@ -17,11 +17,12 @@
         <form action="/page-traitement-donnees" method="post">
             <input type="text" name="mail" placeholder="Email" required><br>
 
-                <span>
-                    <?php if (isset($message)) {
-                                  echo $message ;} ?> 
-                </span>
-            
+            <span>
+                <?php if (isset($message)) {
+                    echo $message;
+                } ?>
+            </span>
+
             <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" required><br>
 
             <span>
@@ -40,7 +41,7 @@
                             echo "Ce pseudo est déjà utilisé ";
                         }
                     }
-                }?>
+                } ?>
             </span>
 
 
@@ -48,40 +49,40 @@
             <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="Confirmez le mot de passe" required><br>
 
             <span>
-            <?php  
-            $passwordPattern = '/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,}$/'; 
-            if (isset($_GET['password'])) {
-                if(!preg_match($passwordPattern,$_GET['password'])) {
-                    echo'Le mot de passe doit contenir :
+                <?php
+                $passwordPattern = '/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,}$/';
+                if (isset($_GET['password'])) {
+                    if (!preg_match($passwordPattern, $_GET['password'])) {
+                        echo 'Le mot de passe doit contenir :
                     - au moins 8 caractères,
                     - une minuscule,
                     - une majuscule,
                     - un chiffre
                     - un caractère spécial';
-                }  
-                if ($_GET['password'] != $_GET['passwordConfirm']){
-                    echo  'Les 2 mots de passe sont différents.';
-                } }
-            ?>
+                    }
+                    if ($_GET['password'] != $_GET['passwordConfirm']) {
+                        echo  'Les 2 mots de passe sont différents.';
+                    }
+                }
+                ?>
             </span>
 
-            
+
             <button class="ps" type="submit">Inscription</button>
 
             <?php
 
-            if(isset($_POST["password"])){
+            if (isset($_GET["password"])) {
                 $pdo = connectToDbAndGetPdo();
                 $pdoStatement = $pdo->prepare('INSERT INTO users ( email, passwords, pseudo) VALUES
                 (:email, :passwords, :pseudo)');
                 $pdoStatement->execute([
-                ':email' => $_GET['mail'],
-                ':passwords' => hash('sha256', $_POST['password']),
-                ':pseudo' => $_GET['pseudo'],
+                    ':email' => $_GET['mail'],
+                    ':passwords' => hash('sha256', $_GET['password']),
+                    ':pseudo' => $_POST['pseudo'],
                 ]);
-                
-            } 
-            
+            }
+
             ?>
 
         </form>
