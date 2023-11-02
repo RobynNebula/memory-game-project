@@ -1,5 +1,5 @@
 <?php require_once "../../utils/database.php";
-
+session_start();
 if (isset($_POST['game_id'])) {
     $game_id = $_POST['game_id'];
     $game_level = $_POST['game_level'];
