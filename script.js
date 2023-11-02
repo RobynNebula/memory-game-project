@@ -11,7 +11,6 @@ password = function () {
 	match = false;
 	var format = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
 
-	//uppercase letter
 	for (i = 0; i < psw.length; i++) {
 		if (psw[i] == psw[i].toUpperCase()) {
 			uppercase = true;
@@ -45,3 +44,8 @@ password = function () {
 };
 
 document.getElementById("password").addEventListener("keyup", password);
+document.getElementById("passwordConfirm").addEventListener(verif);
+
+verif = function () {
+	if (password != passwordConfirm) erreurdiv.innerHTML = "Erreur";
+};

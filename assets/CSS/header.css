@@ -1,27 +1,21 @@
 .head section {
-  display: flex;
-  color: white;
-  min-height: 5%;
-  margin-left: 10%;
-  margin-top: 1%;
+	display: flex;
+	margin-left: 10%;
+	margin-top: 1%;
 }
 
 .linkContainer {
-  display: flex;
-  min-height: 5%;
-  justify-content: flex-end;
-  margin-left: 10%;
-  flex: 1;
-  justify-content: space-around;
-  margin-left: 40%;
-  margin-right: 10%;
+	display: flex;
+	flex: 1;
+	justify-content: space-around;
+	margin-left: 45%;
 }
 
 .head section p {
-  color: white;
+	color: white;
 }
 
 .active {
-  color: orange;
-  font-weight: bold;
+	color: orange;
+	font-weight: bold;
 }

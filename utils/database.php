@@ -6,7 +6,7 @@ function connectToDbAndGetPdo()
   $host = 'localhost';
   $dsn = "mysql:dbname=$dbname;host=$host;charset=utf8";
   $user = 'root';
-  $pass = 'root';
+  $pass = '';
   $driver_options = [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ
@@ -21,16 +21,14 @@ function connectToDbAndGetPdo()
 
 function isMailValid($mail): bool
 {
-    return filter_var($mail, FILTER_VALIDATE_EMAIL);
+  return filter_var($mail, FILTER_VALIDATE_EMAIL);
 }
 ?>
 
-<?php  if (isset($_GET['mail'])) {
-$isMailValid = isMailValid($_GET['mail']);
+<?php if (isset($_GET['mail'])) {
+  $isMailValid = isMailValid($_GET['mail']);
 
-if (!$isMailValid) {
+  if (!$isMailValid) {
     $message = "le format de l'email n'est pas valide";
-}
-
+  }
 };
-
