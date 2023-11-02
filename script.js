@@ -109,7 +109,7 @@ function selectSize(lvl) {
 var request = $.ajax({
 	url: "insertinto.php",
 	type: "POST",
-	data: { game_id: 1, score_game: 105, game_level: 3 },
+	data: { game_id: 1, score_game: 105, game_level: size },
 });
 
 alert("Votre score est de");

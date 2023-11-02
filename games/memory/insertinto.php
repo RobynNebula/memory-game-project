@@ -4,7 +4,7 @@ if (isset($_POST['game_id'])) {
     $game_id = $_POST['game_id'];
     $game_level = $_POST['game_level'];
     $score_game = $_POST['score_game'];
-    $_idjoueur = 1;
+    $_idjoueur = $_SESSION['user_id'];
 
     $pdo = connectToDbAndGetPdo();
 
