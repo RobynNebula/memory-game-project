@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 password = function () {
 	let psw = document.getElementById("password").value;
 	let mdpdiv = document.getElementById("mdpdiv");
@@ -158,17 +157,3 @@ request.done(function (msg) {
 };
 
 document.getElementById("password").addEventListener("keyup", password);
-document.getElementById("passwordConfirm").addEventListener(verif);
-
-verif = function () {
-	if (password != passwordConfirm) erreurdiv.innerHTML = "Erreur";
-};
-=======
-	confirm("Rejouer");
-	var userPreference;
-
-	if (confirm("Rejouer") == true) {
-		userPreference = "Rejouer";
-	}
-});
->>>>>>> Stashed changes

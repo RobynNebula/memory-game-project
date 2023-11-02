@@ -11,7 +11,7 @@ if (!empty($_SESSION['user_id'])) {
 
 <header class="head">
     <section>
-        <a href="thepowerofmemory.html">The power of memory</a>
+        <a href="thepowerofmemory.html">The power of memory phpmyadmin c de la merde</a>
         <div class="linkContainer">
             <div><a href="<?php echo PROJECT_FOLDER ?>accueil.php" <?= ($_SERVER['PHP_SELF'] == PROJECT_FOLDER . 'accueil.php') ? 'class="active"' : '' ?>> Accueil </a></div>
             <div><a href="<?php echo PROJECT_FOLDER ?>login.php" <?= ($_SERVER['PHP_SELF'] == PROJECT_FOLDER . 'login.php') ? 'class="active"' : '' ?>> login </a></div>
