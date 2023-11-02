@@ -1,10 +1,3 @@
-password = function () {
-	let psw = document.getElementById("password").value;
-	let mdpdiv = document.getElementById("mdpdiv");
-	document.getElementById("mdpdiv").classList.remove("faible");
-	document.getElementById("mdpdiv").classList.remove("moyen");
-	document.getElementById("mdpdiv").classList.remove("fort");
-=======
 const gameTable = document.getElementById("gameTable");
 const pButton = document.getElementById("generatorButton");
 let theme = "anime";
@@ -118,42 +111,3 @@ var request = $.ajax({
 	type: "POST",
 	data: { scores: "email", score_game: 105, id: 5, game_level: 3 },
 });
->>>>>>> Stashed changes
-
-request.done(function (msg) {
-	alert("Votre score est de ");
-
-<<<<<<< Updated upstream
-	for (i = 0; i < psw.length; i++) {
-		if (psw[i] == psw[i].toUpperCase()) {
-			uppercase = true;
-		}
-	}
-
-	if (psw.length > 7) {
-		lenght = true;
-	}
-
-	for (i = 0; i < psw.length; i++) {
-		if (format.test(psw[i])) {
-			match = true;
-		}
-	}
-	for (i = 0; i < psw.length; i++) {
-		if (!isNaN(psw[i])) {
-			number = true;
-		}
-	}
-	if (uppercase == true && lenght == true && number == true && match == true) {
-		document.getElementById("mdpdiv").classList.add("fort");
-		mdpdiv.innerHTML = "Mot de passe fort";
-	} else if (uppercase == true && lenght == true && number == true) {
-		document.getElementById("mdpdiv").classList.add("moyen");
-		mdpdiv.innerHTML = "Mot de passe moyen";
-	} else {
-		document.getElementById("mdpdiv").classList.add("faible");
-		mdpdiv.innerHTML = "Mot de passe faible";
-	}
-};
-
-document.getElementById("password").addEventListener("keyup", password);
