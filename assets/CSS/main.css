@@ -722,7 +722,7 @@ h1 {
 }
 
 #ccp {
-  background-color: rgb(104, 0, 104);
+  background-color:  #1c1841;
   border-radius: 20px 20px 20px 20px;
 }
 
@@ -785,6 +785,7 @@ h1 {
   border-radius: 20px 20px;
   display: flex;
   justify-content: space-around;
+  position: relative;
 }
 
 .text-right {
@@ -792,7 +793,7 @@ h1 {
 }
 
 .msgbox{
-  background-color: #e9a9f5;
+  background-color: #ffffff;
 	border: 0;
   height: 50px;
   width: 280px;
@@ -804,7 +805,7 @@ h1 {
 }
 
 .chatTitle button {
-  background-color: red;
+  background-color:  #3f33b0;
 }
 
 .hidden {

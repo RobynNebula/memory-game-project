@@ -2,13 +2,13 @@
 session_start();
 if (isset($_POST['game_id'])) {
     $game_id = $_POST['game_id'];
-    $game_level = $_POST['game_level'];
-    $score_game = $_POST['score_game'];
-    $_idjoueur = $_SESSION['user_id'];
+    $game_level = $_POST['level'];
+    $score_game = $_POST['score'];
+    $id_joueur = $_SESSION['users_id'];
 
     $pdo = connectToDbAndGetPdo();
 
-    $request = "INSERT INTO scores(users_id, game_id, game_level, score_game) VALUES($_idjoueur, $game_id, $game_level, $score_game)";
+    $request = "INSERT INTO scores(users_id, game_id, level, score) VALUES($id_joueur, $game_id, $level, $score)";
 
     $pdoStatement = $pdo->prepare($request);
     $pdoStatement->execute();

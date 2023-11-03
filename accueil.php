@@ -107,9 +107,9 @@
           <p>
             <?php
             $pdo = connectToDbAndGetPdo();
-            $pdoStatement = $pdo->prepare('SELECT score_game AS best_score
+            $pdoStatement = $pdo->prepare('SELECT score AS best_score
             FROM scores 
-            ORDER BY score_game ASC
+            ORDER BY score ASC
             LIMIT 1');
             $pdoStatement->execute();
             $score = $pdoStatement->fetch();

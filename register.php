@@ -74,11 +74,11 @@
 
         if (isset($_POST["password"])) {
             $pdo = connectToDbAndGetPdo();
-            $pdoStatement = $pdo->prepare('INSERT INTO users ( email, password, pseudo) VALUES
-                (:email, :password, :pseudo)');
+            $pdoStatement = $pdo->prepare('INSERT INTO users ( email, passwords, pseudo) VALUES
+                (:email, :passwords, :pseudo)');
             $pdoStatement->execute([
                 ':email' => $_POST['mail'],
-                ':password' => hash('sha256', $_POST['password']),
+                ':passwords' => hash('sha256', $_POST['password']),
                 ':pseudo' => $_POST['pseudo'],
             ]);
         }

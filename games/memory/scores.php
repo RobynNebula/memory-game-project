@@ -36,14 +36,14 @@
     if (isset($_GET['pseudo'])) {
       $pdoStatement = $pdo->prepare('SELECT s.*, g.name_game, u.pseudo FROM scores s INNER JOIN game g 
                                           ON s.game_id = g.id INNER JOIN users u ON s.users_id = u.id WHERE u.pseudo = :pseudo
-                                          ORDER BY s.score_game ASC');
+                                          ORDER BY s.score ASC');
       $pdoStatement->execute([
         ':pseudo' => $_GET['pseudo'],
       ]);
     } else {
       $pdoStatement = $pdo->prepare('SELECT s.*, g.name_game, u.pseudo FROM scores s INNER JOIN game g 
             ON s.game_id = g.id INNER JOIN users u ON s.users_id = u.id 
-            ORDER BY s.score_game ASC');
+            ORDER BY s.score ASC');
       $pdoStatement->execute([]);
     }
     $scores = $pdoStatement->fetchAll(); ?>
